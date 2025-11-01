@@ -6,6 +6,7 @@ export default function HeroSection() {
     <section 
       id="home" 
       className="relative min-h-screen flex items-center justify-center overflow-hidden py-8 sm:py-16 lg:py-0"
+      style="padding-bottom: 7rem;"
     >
       {/* Enhanced Dynamic Background */}
       <div className="absolute inset-0">

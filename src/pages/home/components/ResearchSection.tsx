@@ -49,12 +49,12 @@ export default function ResearchSection() {
 
               {/* メイン動画 */}
               <video
-                src={`${import.meta.env.BASE_URL}mv/AdobeStock_505553864_light.webm`}
+                src={`${import.meta.env.BASE_URL}mv/AdobeStock_505553864_silent.webm`}
                 autoPlay
                 loop
                 muted
                 playsInline
-                preload="metadata"
+                preload="auto"
                 className="w-full h-96 object-cover transition-transform duration-700 group-hover:scale-105 opacity-0 transition-opacity duration-1000"
                 onLoadedData={(e) => e.currentTarget.classList.remove('opacity-0')}
               />
