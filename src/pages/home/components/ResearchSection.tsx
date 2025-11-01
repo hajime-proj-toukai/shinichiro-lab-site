@@ -39,13 +39,13 @@ export default function ResearchSection() {
           <div className={`transition-all duration-1000 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
             <div className="relative overflow-hidden group">
               {/* ローディング中は静止画を表示 */}
-              <div className="absolute inset-0 bg-black/5 flex items-center justify-center">
+              {/* <div className="absolute inset-0 bg-black/5 flex items-center justify-center">
                 <img
                   src="https://static.readdy.ai/image/e4cbf0de708db933b95718301e951dff/44bf19991958d9165af7658436431935.jpeg"
                   alt="研究室の様子（ローディング中）"
                   className="w-full h-96 object-cover blur-sm transition-opacity duration-700"
                 />
-              </div>
+              </div> */}
 
               {/* メイン動画 */}
               <video
